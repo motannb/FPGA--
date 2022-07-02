@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1654330897">
+  <File Type="BITSTR-BMM" Name="basketball_top_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="basketball_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="basketball_top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="basketball_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="basketball_top.tcl"/>
+  <File Type="OPT-TIMING" Name="basketball_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="basketball_top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="basketball_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="basketball_top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="basketball_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="basketball_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="basketball_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="basketball_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="basketball_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="basketball_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="basketball_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="basketball_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="basketball_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="basketball_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="basketball_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="basketball_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="basketball_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="basketball_top.bgn"/>
+  <File Type="PLACE-TIMING" Name="basketball_top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="basketball_top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="basketball_top.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="basketball_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="basketball_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="basketball_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="basketball_top.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="basketball_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="basketball_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="basketball_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="basketball_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="basketball_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="basketball_top_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="basketball_top.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="basketball_top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="basketball_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="basketball_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="basketball_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="basketball_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="basketball_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="basketball_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="basketball_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="basketball_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="basketball_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="basketball_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="basketball_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="basketball_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="basketball_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="basketball_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="basketball_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="basketball_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="basketball_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="basketball_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="basketball_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="basketball_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="basketball_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="basketball_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="basketball_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="basketball_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="basketball_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="basketball_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="basketball_top.nky"/>
+  <File Type="BG-DRC" Name="basketball_top.drc"/>
+  <File Type="RDI-RDI" Name="basketball_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../Basketball/Nixie_scan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Basketball/bin_to_bcd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../UART/clk_div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_self_clr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Verilog/Basketball/count_8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Basketball/counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Basketball/div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Basketball/key.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Verilog/Basketball/key_scan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lcd1602.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Basketball/score.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../UART/uart_tx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Basketball/basketball_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="basketball_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

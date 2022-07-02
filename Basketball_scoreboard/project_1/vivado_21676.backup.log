@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 27 22:39:52 2022
+# Process ID: 21676
+# Current directory: D:/NI/Basketball_scoreboard/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21624 D:\NI\Basketball_scoreboard\project_1\project_1.xpr
+# Log file: D:/NI/Basketball_scoreboard/project_1/vivado.log
+# Journal file: D:/NI/Basketball_scoreboard/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NI/Basketball_scoreboard/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 873.578 ; gain = 204.727
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: basketball_top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 930.203 ; gain = 32.164
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'basketball_top' [D:/Basketball/basketball_top.v:7]
+	Parameter twenty_four bound to: 24 - type: integer 
+	Parameter sixty bound to: 60 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'div' [D:/Basketball/div.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'div' (1#1) [D:/Basketball/div.v:2]
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/Basketball/counter.v:1]
+	Parameter N bound to: 8 - type: integer 
+	Parameter times bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (2#1) [D:/Basketball/counter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [D:/Basketball/counter.v:1]
+	Parameter N bound to: 8 - type: integer 
+	Parameter times bound to: 60 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (2#1) [D:/Basketball/counter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'bin_to_bcd' [D:/Basketball/bin_to_bcd.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bin_to_bcd' (3#1) [D:/Basketball/bin_to_bcd.v:1]
+INFO: [Synth 8-6157] synthesizing module 'score' [D:/Basketball/score.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'score' (4#1) [D:/Basketball/score.v:1]
+INFO: [Synth 8-6157] synthesizing module 'key' [D:/Basketball/key.v:1]
+	Parameter zero bound to: 3'b000 
+	Parameter wait1_1 bound to: 3'b001 
+	Parameter wait1_2 bound to: 3'b010 
+	Parameter wait1_3 bound to: 3'b011 
+	Parameter one bound to: 3'b100 
+	Parameter wait0_1 bound to: 3'b101 
+	Parameter wait0_2 bound to: 3'b110 
+	Parameter wait0_3 bound to: 3'b111 
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Basketball/key.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'key' (5#1) [D:/Basketball/key.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Nixie_scan' [D:/Basketball/Nixie_scan.v:1]
+	Parameter C bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Nixie_scan' (6#1) [D:/Basketball/Nixie_scan.v:1]
+INFO: [Synth 8-6157] synthesizing module 'key_scan' [D:/NI/Verilog/Basketball/key_scan.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'key_scan' (7#1) [D:/NI/Verilog/Basketball/key_scan.v:1]
+INFO: [Synth 8-6157] synthesizing module 'count_8' [D:/NI/Verilog/Basketball/count_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'count_8' (8#1) [D:/NI/Verilog/Basketball/count_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'basketball_top' (9#1) [D:/Basketball/basketball_top.v:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 974.070 ; gain = 76.031
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 974.070 ; gain = 76.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 974.070 ; gain = 76.031
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 2 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/NI/Basketball_scoreboard/project_1/project_1.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [D:/NI/Basketball_scoreboard/project_1/project_1.srcs/constrs_1/new/top.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1277.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1327.336 ; gain = 429.297
+26 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1327.336 ; gain = 429.297
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 27 22:43:18 2022...

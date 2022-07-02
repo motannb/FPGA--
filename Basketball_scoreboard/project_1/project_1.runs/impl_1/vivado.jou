@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jun  4 16:22:18 2022
+# Process ID: 13376
+# Current directory: D:/NI/Basketball_scoreboard/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log basketball_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source basketball_top.tcl -notrace
+# Log file: D:/NI/Basketball_scoreboard/project_1/project_1.runs/impl_1/basketball_top.vdi
+# Journal file: D:/NI/Basketball_scoreboard/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source basketball_top.tcl -notrace
